@@ -1,0 +1,228 @@
+/* Ajustes gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo padrão */
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 0; /* Garantir que esteja no topo */
+    background-color: #f9f9f9;
+}
+.content {
+    width: 60%;
+}
+.sidebar {
+    width: 35%;
+    text-align: center;
+}
+.sidebar img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.sidebar p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.nav-buttons {
+    margin-left: 60%;
+}
+
+.nav-link i {
+    margin-right: 5px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.nav-link span {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.nav-link:hover i,
+.nav-link:hover span {
+    color: #007bff;
+}
+
+/* Ícones na barra de navegação */
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-container i {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icon-container i:hover {
+    color: #007bff;
+}
+
+/* Seção Home */
+#home {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333; /* Cor do texto padrão */
+}
+
+#home span {
+    color: coral;
+    font-weight: bold;
+}
+
+#home h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#home p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #666;
+}
+
+#home button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#home button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer hr {
+    border: 1px solid #fff;
+    opacity: 0.5;
+}
+
+footer p {
+    font-size: 14px;
+    color: #bbb;
+    text-align: center;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .navbar-brand img {
+    max-height: 50px;
+}
+
+/* Barra lateral */
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar .nav-link {
+    color: #333;
+}
+
+.sidebar .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Tabelas */
+.table {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#main-image-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.thumbnail {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.thumbnail:hover {
+    border-color: #007bff;
+}
+
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 1.5rem;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating .star:hover,
+.rating .star:hover ~ .star {
+    color: #ffcc00;
+}
+
+.rating .star.active {
+    color: #ffcc00;
+}
+.carousel-item {
+    padding: 10px;
+}
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
